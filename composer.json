@@ -1,0 +1,25 @@
+{
+    "name": "vain/event",
+    "type": "shared-package",
+    "authors": [
+        {
+            "name": "Taras Girnyk",
+            "email": "le@mirohost.net",
+            "homepage": "http://gitlab.cosmonova.net.ua/mmjitsu/vain-event",
+            "role": "Maintainer"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Vain\\Event\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=5.6.0"
+    },
+    "config": {
+        "secure-http": false
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
