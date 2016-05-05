@@ -20,4 +20,12 @@ abstract class AbstractEvent implements EventInterface
     {
         $this->name = $name;
     }
+
+    /**
+     * @return string
+     */
+    public function getName()
+    {
+        return $this->name;
+    }
 }
